@@ -12,6 +12,8 @@ public class Customer {
 	private String name;
 	private String address;
 	private Blob picture;
+	private Blob identity;
+	
 	public int getCode() {
 		return code;
 	}
@@ -40,6 +42,12 @@ public class Customer {
 	public String toString() {
 		return "Customer [code=" + code + ", name=" + name + ", address="
 				+ address + ", picture=" + picture + "]";
+	}
+	public Blob getIdentity() {
+		return identity;
+	}
+	public void setIdentity(Blob identity) {
+		this.identity = identity;
 	}
 	
 	

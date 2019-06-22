@@ -8,6 +8,7 @@
 			Name	<input type="text" name="name"/>
 			Adrs	<input type="text" name="address"/>
 			Pict	<input type="file" name="cpic"/>
+			IdProff	<input type="file" name="idproof"/>
 					<input type="submit" value="Save"/>
 		</pre>					
 		</form>

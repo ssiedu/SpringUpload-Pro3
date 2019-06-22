@@ -22,7 +22,7 @@ public class ProjectConfig {
 	@Bean
 	public CommonsMultipartResolver multipartResolver(){
 		CommonsMultipartResolver resolver=new CommonsMultipartResolver();
-		resolver.setMaxUploadSize(500000);
+		resolver.setMaxUploadSize(1500000);
 		return resolver;
 	}
 	
